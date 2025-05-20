@@ -8,3 +8,4 @@ scikit-learn
 Levenshtein
 python-crfsuite
 imbalanced-learn
+openpyxl
