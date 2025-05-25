@@ -7,3 +7,4 @@ git+https://github.com/ariaghora/mpstemmer.git
 scikit-learn
 imbalanced-learn
 openpyxl
+Levenshtein
