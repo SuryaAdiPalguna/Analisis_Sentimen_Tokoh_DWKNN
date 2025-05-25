@@ -28,7 +28,7 @@ class KNN(BaseEstimator, ClassifierMixin):
     k_indices = np.argsort(distances)[:self.k]
     # Step 3: Search k-nearest neighbors of the query.
     k_nearest_labels = [self.y_train[i] for i in k_indices]
-    # Step 4: Assign a majority weighted voting class label to the query.
+    # Step 4: Assign a majority voting class label to the query.
     unique_labels = np.unique(k_nearest_labels)
     label_counts = [np.sum(np.equal(k_nearest_labels, label).astype(int)) for label in unique_labels]
     best_label = unique_labels[np.argmax(label_counts)]

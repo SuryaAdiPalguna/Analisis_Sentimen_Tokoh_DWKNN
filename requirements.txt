@@ -5,7 +5,5 @@ nltk
 regex
 git+https://github.com/ariaghora/mpstemmer.git
 scikit-learn
-Levenshtein
-python-crfsuite
 imbalanced-learn
 openpyxl
