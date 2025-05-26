@@ -122,7 +122,7 @@ Proyek ini berada di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk info
 
 ## 👤 Pengembang
 
-**Surya Adi Palguna**
+**I Made Surya Adi Palguna**
 _Analisis Sentimen Tokoh Politik dengan Metode DWKNN_
 
 ---
